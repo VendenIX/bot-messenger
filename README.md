@@ -1,2 +1,11 @@
-# bot-messenger
-Selenium script for scrapping on facebook, parse members of a group and send messages auto
+Bot qui sert à envoyer un message automatiquement dans un groupe privé messenger
+
+ajouter un fichier .env avec:
+
+FACEBOOK_USER=Adresse mail de Ambre
+FACEBOOK_PASSWORD=Mot de passe facebook de Ambre
+MESSAGE=Message à envoyer
+
+effectué avec selenium, code à modifier en fonction de ses besoins
+le script parse tous les utilisateurs du groupe en scrollant automatiquement et envoie le message à tous les utilisateurs
+actuellement, j'ai remarqué que facebook limite ses utilisateurs à environ 70 messages maximum par jour
