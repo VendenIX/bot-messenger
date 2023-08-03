@@ -2,8 +2,8 @@ Bot qui sert à envoyer un message automatiquement dans un groupe privé messeng
 
 ajouter un fichier .env avec:
 
-FACEBOOK_USER=Adresse mail de Ambre
-FACEBOOK_PASSWORD=Mot de passe facebook de Ambre
+FACEBOOK_USER=Adresse mail du compteur émetteur
+FACEBOOK_PASSWORD=Mot de passe facebook du compte émetteur
 MESSAGE=Message à envoyer
 
 effectué avec selenium, code à modifier en fonction de ses besoins
